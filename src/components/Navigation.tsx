@@ -186,7 +186,7 @@ export default function Navigation() {
           'supports-[backdrop-filter]:bg-slate-950/80'
         )}
       >
-        <nav className="max-w-7xl mx-auto px-6 lg:px-8">
+        <nav className="w-full mx-auto px-6 lg:px-12">
           <div className="flex items-center justify-between h-20 lg:h-24">
             {/* Logo */}
             <a
@@ -236,7 +236,7 @@ export default function Navigation() {
         onClick={closeMenu}
       />
 
-      {/* Mobile Slide-in Menu */}
+      {/* Mobile Slide-in Menu */} 
       <div
         className={cn(
           'fixed top-0 right-0 h-full w-full max-w-md bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 border-l border-amber-500/30 shadow-2xl transform transition-transform duration-500 ease-out z-50 lg:hidden',
